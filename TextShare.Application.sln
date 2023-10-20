@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9FC9C2C9-8368-470D-91DB-7A1B5A01D5D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextShare.Application.Host", "src\TextShare.Application.Host\TextShare.Application.Host.csproj", "{2B554602-47E9-460B-ABC9-F7AA14A2E473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextShare.Application.AppService.Contracts", "src\TextShare.Application.AppService.Contracts\TextShare.Application.AppService.Contracts.csproj", "{EDCBC785-3DF7-4588-85F7-F3C80664E549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextShare.Application.AppService", "src\TextShare.Application.AppService\TextShare.Application.AppService.csproj", "{49445193-91B8-459A-B151-B0A6F8303FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextShare.Application.Api.Contracts", "src\TextShare.Application.Api.Contracts\TextShare.Application.Api.Contracts.csproj", "{CEACE804-5C96-412E-B765-10897B213CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B554602-47E9-460B-ABC9-F7AA14A2E473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B554602-47E9-460B-ABC9-F7AA14A2E473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B554602-47E9-460B-ABC9-F7AA14A2E473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B554602-47E9-460B-ABC9-F7AA14A2E473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCBC785-3DF7-4588-85F7-F3C80664E549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCBC785-3DF7-4588-85F7-F3C80664E549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCBC785-3DF7-4588-85F7-F3C80664E549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCBC785-3DF7-4588-85F7-F3C80664E549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49445193-91B8-459A-B151-B0A6F8303FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49445193-91B8-459A-B151-B0A6F8303FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49445193-91B8-459A-B151-B0A6F8303FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49445193-91B8-459A-B151-B0A6F8303FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEACE804-5C96-412E-B765-10897B213CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEACE804-5C96-412E-B765-10897B213CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEACE804-5C96-412E-B765-10897B213CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEACE804-5C96-412E-B765-10897B213CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B554602-47E9-460B-ABC9-F7AA14A2E473} = {9FC9C2C9-8368-470D-91DB-7A1B5A01D5D3}
+		{EDCBC785-3DF7-4588-85F7-F3C80664E549} = {9FC9C2C9-8368-470D-91DB-7A1B5A01D5D3}
+		{49445193-91B8-459A-B151-B0A6F8303FA0} = {9FC9C2C9-8368-470D-91DB-7A1B5A01D5D3}
+		{CEACE804-5C96-412E-B765-10897B213CFC} = {9FC9C2C9-8368-470D-91DB-7A1B5A01D5D3}
+	EndGlobalSection
+EndGlobal
